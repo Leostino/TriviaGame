@@ -1,15 +1,41 @@
 body {
     background-image: url("../images/emirates_stadium.jpg");
-    background-image: image-set(width="100em");
+    background-repeat: no-repeat;
+    background-size: 77.6em;
 }
 .jumbotron {
     background: #ffffff!important;
     opacity: .67;
     font-size: 64px;
-    height: 150px;
+    height: 100px;
 }
 .container-one {
-    background-color: white;
-    width: 80%;
-    margin-left: 10%;
+    margin-left: 300px;
+    margin-top:60px;
+}
+
+#game {
+    height: 300px;
+    width: 40em;
+    background-color: red;
+    opacity: .85;
+    color:#ffffff;
+}
+
+#game-container {
+    height: 300px;
+    width: 40em;
+}
+
+#remaining-time {
+    color:#ffffff;
+}
+
+#question-div {
+    padding-top:35px;
+}
+
+
+.answersAll {
+    padding-top:15px;
 }
