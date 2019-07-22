@@ -13,20 +13,20 @@
 
         <!--container for jumbotron header-->
 
-        <div class="header jumbotron jumbotron-fluid d-flex justify-content-center bg-light">
+        <div class="header jumbotron jumbotron-fluid d-flex justify-content-center align-items-center bg-light">
             <h1><strong>Arsenal*FC TriviaGame</strong></h1>
         </div>
 
         <!--container for the game-->
         
-        <div class="container">
+        <div class="container-one">
             <div class="row">
                 <div class="col-md-12">
-                  <div id="game">
-                      <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
-                      <p id="question" class="lead"></p>
-                  </div>
-                  <div id="results"></div>
+                    <div id="game">
+                      <h3>Timer: <span id="remaining-time"></span></h3>
+                      <div id="question"></div>
+                    </div>
+                
                 </div>
             </div>
         </div>
@@ -35,8 +35,8 @@
         
         <div class="container">
             <div class="row">
-                <div id="button-div" class="col-md-12 d-flex justify-content-center">
-                    <button id="start-button" type="button" class="btn btn-danger btn-lg">START GAME</button>
+                <div id="button-div" class="col-md-12 d-flex justify-content-center align-items-center">
+                    <button id="start" type="button" class="btn btn-danger btn-lg">START GAME</button>
                 </div>
             </div>
         </div>

@@ -8,6 +8,8 @@ body {
     font-size: 64px;
     height: 150px;
 }
-h1 {
-    padding-bottom: 40px;
+.container-one {
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
 }
