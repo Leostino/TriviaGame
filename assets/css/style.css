@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/emirates_stadium.jpg");
     background-repeat: no-repeat;
-    background-size: 77.6em;
+    background-size: cover;
 }
 .jumbotron {
     background: #ffffff!important;
