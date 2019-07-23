@@ -39,11 +39,11 @@ $(document).ready(function () {
     options: ["PATRICK VIEIRA","RICARDO EDU","GILBERTO SILVA","SOL CAMPBELL"],
     correct: "1"
   }, {
-    question: "WHAT WAS ARSENAL POSITION IN THE LEAGUE LAST SEASON?",
+    question: "WHAT WAS ARSENAL'S POSITION IN THE LEAGUE LAST SEASON?",
     options: ["1st","4th","5th","7th"],
     correct: "2"
   }, {
-    question: "WHAT WAS THE LAST TROPHY WON BY ARSENAL?",
+    question: "WHAT WAS THE LAST TROPHY WON BY ARSENAL FC?",
     options: ["CHAMPIONS LEAGUE","PREMIER LEAGUE","FA CUP","CARLING CUP"],
     correct: "2"
   }, {
